@@ -28,23 +28,23 @@ client.on("error", console.error);
 client.on("guildMemberAdd", async newMember => {
 
   var joinEmbed = new discord.MessageEmbed()
-    .setTitle("**Welkom**")
+    .setTitle("**User joined**")
     .setColor("GREEN")
-    .addField("Welkom bij steen")
+    .addField("Welcome by this guild")
 
   guildMember.addRole(guildMember.guild.roles.find(role => role.name === "Member"));
-  member.guild.channels.get('793249868322832394').send(joinEmbed)
+  member.guild.channels.get('...').send(joinEmbed)
 
 });
 
 client.on("guildMemberRemove", async leaveMember => {
 
   var leaveEmbed = new discord.MEssageEmbed()
-    .setTitle("**Doei**")
+    .setTitle("**User left**")
     .setColor("RED")
-    .addField("Doei bij steen")
+    .addField("User left this guild")
 
-  member.guild.channels.get('793249868322832394').send(leaveEmbed);
+  member.guild.channels.get('').send(leaveEmbed);
 });
 
 /**
