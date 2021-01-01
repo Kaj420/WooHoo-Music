@@ -1,7 +1,7 @@
 {
-  "TOKEN": "NzkyMjQ1MjQwODE5NzQ0ODMw.X-a54A.mWl2D1c5NeUTe_zk6zytxwBh018",
-  "YOUTUBE_API_KEY": "AIzaSyCmADpJ9RK7eSeDqrtMC6f6ODmsXyoIR5c",
-  "SOUNDCLOUD_CLIENT_ID": "",
+  "TOKEN": "https://discord.com/developers/docs/intro",
+  "YOUTUBE_API_KEY": "https://developers.google.com/youtube/v3",
+  "SOUNDCLOUD_CLIENT_ID": "(optional)",
   "MAX_PLAYLIST_SIZE": 15,
   "PREFIX": "!",
   "PRUNING": false,
